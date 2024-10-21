@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .series-card {
+      margin-bottom: 20px;
+    }
+
+    .series-card img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .card-body h5 {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .card-body p {
+      font-size: 0.95rem;
+    }
+
+    .series-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .webpage-link {
+      font-size: 0.9rem;
+      color: #007bff;
+    }
+
+    .seasons-info {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Popular TV Series</h2>
+    <div id="series-container" class="row"></div>
+  </div>
+
+  <script src="dist/bundle.js"></script> <!-- Asegúrate de apuntar a tu archivo JS compilado -->
+</body>
+</html>
